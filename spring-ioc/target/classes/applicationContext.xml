@@ -6,18 +6,18 @@
     <!-- 把一个对象放进Spring容器 -->
     <bean name="s1" class="com.ioc.test.student">
         <property name="id" value="1"></property>
-        <property name="name" value="小红"></property>
-        <property name="age" value="18"></property>
-        <property name="sex" value="2"></property>
+        <property name="name" value="小明同学"></property>
+        <property name="age" value="15"></property>
+        <property name="sex" value="1"></property>
         <property name="address" value="中国"></property>
     </bean>
     <!-- 把另一个对象也放到spring容器中，对象的名字不能重复，否则运行会报错 -->
     <!-- 用property设置对象的属性，那该对象要有setter方法，还要有一个无参数的构造方法 -->
     <bean name="s2" class="com.ioc.test.student">
         <property name="id" value="2"></property>
-        <property name="name" value="小白"></property>
+        <property name="name" value="小红同学"></property>
         <property name="age" value="16"></property>
-        <property name="sex" value="1"></property>
+        <property name="sex" value="2"></property>
         <property name="address" value="中国"></property>
     </bean>
 </beans>

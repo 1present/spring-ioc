@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<!--        spring-ioc的依赖-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
@@ -23,6 +24,7 @@
     </dependencies>
     <build>
         <plugins>
+<!--            JDK版本-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
